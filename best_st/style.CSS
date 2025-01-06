@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для шапки сайта */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Добавляем класс для скрытия меню */
+.menu-hidden {
+    display: none;
+}
+
+/* Стили для навигационного меню */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Стили для основного контента */
+#main-content {
+    text-align: center;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+/* Стили для контейнера услуг */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Стили для блока услуг */
+.service {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h2 {
+    margin-top: 10px;
+}
+
+/* Стили для блока команды */
+.our-team {
+    padding-top: 120px;
+    padding-bottom: 105px;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+/* Стили для контейнера команды */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для заголовка блока команды */
+.block-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стили для подзаголовка блока команды */
+.our-team__subtitle {
+    text-align: center;
+}
+
+/* Стили для персонала */
+.persons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person {
+    width: 45%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.persons__photo,
+.persons_name,
+.position,
+.person_info,
+.link_list {
+    text-align: center;
+}
+
+.link_list a {
+    margin-right: 10px;
+}
+
+.link_list img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Стили для блока навыков */
+#skills {
+    padding-top: 120px;
+    padding-bottom: 105px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#title2 {
+    text-align: center;
+}
+
+#skills p {
+    text-align: center;
+    padding-top: 20px;
+    color: #636c81;
+}
+
+#percentage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    max-width: 300px;
+    height: auto;
+}
+
+.skill h5 {
+    color: #3c4761;
+    padding-top: 10px;
+}
+
+/* Стили для блока контактов */
+.contact-us {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-us__title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-us__subtitle {
+    font-size: 18px;
+    color: #d3d3d3;
+}
+
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login input,
+.login textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007aff;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Стили для подвала сайта */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
